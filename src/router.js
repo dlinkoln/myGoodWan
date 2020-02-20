@@ -14,6 +14,7 @@ import Terms from "./components/Terms.vue";
 import TermsCard from "./components/TermsCard.vue";
 import RulesCardModal from "./components/RulesCardModal.vue";
 
+
 const routes = [
     { path: "/BaseStation", component: BaseStation },
     { path: "/baseStationCard", component: BaseStationCard },
@@ -31,7 +32,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-    mode: "history",
+    mode: "abstract",
     routes // сокращённая запись для `routes: routes`
 });
 export default router;

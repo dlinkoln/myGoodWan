@@ -205,7 +205,7 @@
       <h1 class="title">Страницы проекта</h1>
       <ul class="menu-project">
         <li>
-          <router-link to="/Executor">Исполнители</router-link>
+          <router-link to="Executor">Исполнители</router-link>
           <ul>
             <li>
               <router-link to="/ExecutorCard">Исполнители карточка</router-link>
@@ -240,7 +240,7 @@
           </ul>
         </li>
         <li>
-          <router-link to="/BaseStation">Базовые станции</router-link>
+          <router-link to="BaseStation">Базовые станции</router-link>
           <ul>
             <li>
               <router-link to="/BaseStationMap">Базовые станции на карте</router-link>
