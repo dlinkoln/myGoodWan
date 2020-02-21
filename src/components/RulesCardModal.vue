@@ -3,21 +3,21 @@
         <div class="main" id="main">
         <div class="title">
             <div class="left">
-                <a href="/rules.html">
+               <router-link to="/Rules">
                     <svg class="img-svg-arrow" width="18" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M4.75 7.91289L0.768295 4.5L4.75 1.08711V7.91289Z" stroke="#979797"/>
                     <path d="M5.5 4.5H17.5" stroke="#979797" stroke-linecap="square"/>
                     </svg> Назад
-                </a>
+                </router-link>
                 <h1>Правило 1</h1>
             </div>
             <div class="right">
-                <a href="/rules_card.html">
+                <router-link to="/RulesCard">
                     <button class="blue">Сохранить</button>
-                </a>
-                <a href="/rules_card.html">
+                </router-link>
+                <router-link to="/RulesCard">
                     <button>Отмена</button>
-                </a>
+                </router-link>
                 <a href="">
                     <svg class="img-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 4H19V6H5V4H8.5L9.5 3H14.5L15.5 4ZM8 21C6.9 21 6 20.1 6 19V7H18V19C18 20.1 17.1 21 16 21H8Z" fill="#AAB7D4"/>

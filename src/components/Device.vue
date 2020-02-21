@@ -61,7 +61,7 @@
         </a>
       </div>
       <div class="right">
-        <a href="/device_map.html">
+        <router-link to="/DeviceMap">
           <svg
             class="img-svg"
             width="25"
@@ -77,7 +77,7 @@
               fill="#AAB7D4"
             />
           </svg>
-        </a>
+        </router-link>
         <a href="/device.html">
           <svg
             class="img-svg active"
@@ -344,9 +344,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/device_card.html">
+              <router-link to="/DeviceCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -408,9 +408,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/device_card.html">
+              <router-link to="/DeviceCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -472,9 +472,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/device_card.html">
+              <router-link to="/DeviceCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -536,9 +536,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/device_card.html">
+              <router-link to="/DeviceCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -600,9 +600,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/device_card.html">
+              <router-link to="/DeviceCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
         </tbody>

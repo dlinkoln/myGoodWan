@@ -2,7 +2,7 @@
   <div class="baseTemplate">
     <header>
       <div class="logo">
-        <a href>
+        <router-link to="/">
           <svg
             width="171"
             height="35"
@@ -95,7 +95,7 @@
               fill="#FF132F"
             />
           </svg>
-        </a>
+</router-link>
       </div>
       <div class="user_name">
         <p>Ольга Глухарёва</p>
@@ -201,72 +201,6 @@
     </nav>
     
     <div class="main" id="main">
-
-      <h1 class="title">Страницы проекта</h1>
-      <ul class="menu-project">
-        <li>
-          <router-link to="Executor">Исполнители</router-link>
-          <ul>
-            <li>
-              <router-link to="/ExecutorCard">Исполнители карточка</router-link>
-            </li>
-            <li>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <router-link to="/Rules">Условия</router-link>
-          <ul>
-            <li>
-              <router-link to="/RulesCard">Условия карточкa</router-link>
-            </li>
-            <li>
-              
-            </li>
-          </ul>
-        </li>
-        <li>
-          <router-link to="/Rules">Правила</router-link>
-          <ul>
-            <li>
-              
-            </li>
-            <li>
-              <router-link to="/RulesCard">Правила карточкa</router-link>
-            </li>
-            <li>
-                <router-link to="/RulesCardModal">Правила редактирование карточки + модальное окно выбора исполнителя</router-link>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <router-link to="BaseStation">Базовые станции</router-link>
-          <ul>
-            <li>
-              <router-link to="/BaseStationMap">Базовые станции на карте</router-link>
-            </li>
-            <li>
-              <router-link to="/BaseStationCard">Базовые станции карточкa</router-link>
-            </li>
-            <li>
-              
-            </li>
-          </ul>
-        </li>
-        <li>
-          <router-link to="/Device">Устройства</router-link>
-          <ul>
-            <li>
-              <router-link to="/DeviceMap">Устройства на карте</router-link>
-            </li>
-            <li>
-              <router-link to="/DeviceCard">Устройства карточкa</router-link>
-            </li>
-            <li>
-            </li>
-          </ul>
-        </li>
-      </ul>
       <router-view ></router-view>
     </div>
   </div>
@@ -305,7 +239,7 @@ export default {
       $("#main-nav").hcOffcanvasNav({
         maxWidth: 5000,
         insertClose: true,
-        labelClose: '<img src="img/exit.png" alt=""> Выход',
+        labelClose: '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGPSURBVHgBtZbBdYJAEIZnV/RMCaQDU4HaQawgSQXuQX3e9OgDDliBWoEl2AIlkApirsCD/OODPEngPVg234GVXZl/Z2ZnQFALlsvlVAjh5Hnu8L3v+ztqidW0oJRyRqPRIsuyN9xGGEOIfFBHagVWq9UCxhSMntM0fQqC4EaaVASwa3s4HB4RCnswGMxc142oJxWBwvgXYjwn06zX6y2SeSXD3D3ghGLnyrKsZ9IAORvz6Hle+HtN8gWh2SKpp/1+H5E+l1LojwCYSikPpEmx83mdiCyK6NZz940i7MEY8Q/JAHUinGQbApUK5UXMvZAGeI4QERa6ws5M0j9jQS3COHmcLFzVCht7D5uv8GTGdiR+RJgYkwEK4xfYnJc1IfiCk/TZt6nVGWfuOcDkGVWsSJMm4z8CqOSA48YtgzSpM14BYVLYifFmVwECXCBHMkilDpIkecdgsyd9wvWIqJtEuHbICb82T3EcH3C6IjIpwGw2GwdHd4cuO0EC+fiGZUvp8lUh2vyJOy4GLka7q8A31pHPJp0yflcAAAAASUVORK5CYII=" alt=""> Выход',
         insertBack: false,
         pushContent: true,
         side: "left",

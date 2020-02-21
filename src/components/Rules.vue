@@ -137,9 +137,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -169,9 +169,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -201,9 +201,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -233,9 +233,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -265,9 +265,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -297,9 +297,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/rules_card.html">
+              <router-link to="/RulesCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
         </tbody>

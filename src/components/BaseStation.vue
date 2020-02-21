@@ -61,7 +61,7 @@
         </a>
       </div>
       <div class="right">
-        <a href="/base_station_map.html">
+       <router-link to="/BaseStationMap">
           <svg
             class="img-svg"
             width="25"
@@ -77,7 +77,7 @@
               fill="#AAB7D4"
             />
           </svg>
-        </a>
+        </router-link>
         <a href="/base_station.html">
           <svg
             class="img-svg active"
@@ -333,9 +333,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/base_station_card.html">
+              <router-link to="/BaseStationCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -383,9 +383,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/base_station_card.html">
+              <router-link to="/BaseStationCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -433,9 +433,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/base_station_card.html">
+              <router-link to="/BaseStationCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -483,9 +483,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/base_station_card.html">
+              <router-link to="/BaseStationCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -533,9 +533,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/base_station_card.html">
+              <router-link to="/BaseStationCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
         </tbody>

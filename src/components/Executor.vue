@@ -93,7 +93,7 @@
             <td class="name">http get test</td>
             <td class="type">http post</td>
             <td class="status">
-              <img src="img/arrow_activ.png" alt />
+              <img src="../assets/img/arrow_activ.png" alt />
             </td>
             <td>
               <a href>https://srv04.goodwan.ru/hooks/ping</a>
@@ -118,9 +118,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -152,9 +152,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -186,9 +186,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -220,9 +220,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -254,9 +254,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -288,9 +288,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/executor_card.html">
+              <router-link to="/ExecutorCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
         </tbody>

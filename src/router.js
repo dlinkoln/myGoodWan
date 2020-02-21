@@ -13,9 +13,11 @@ import RulesCard from "./components/RulesCard.vue";
 import Terms from "./components/Terms.vue";
 import TermsCard from "./components/TermsCard.vue";
 import RulesCardModal from "./components/RulesCardModal.vue";
+import Home from "./components/Home.vue";
 
 
 const routes = [
+    { path: "/", component: Home },
     { path: "/BaseStation", component: BaseStation },
     { path: "/baseStationCard", component: BaseStationCard },
     { path: "/BaseStationMap", component: BaseStationMap },
@@ -32,7 +34,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
-    mode: "abstract",
+    mode: "hash",
     routes // сокращённая запись для `routes: routes`
 });
 export default router;

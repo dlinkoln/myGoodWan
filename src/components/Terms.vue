@@ -112,9 +112,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -141,9 +141,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -170,9 +170,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -199,9 +199,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -228,9 +228,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
           <tr>
@@ -257,9 +257,9 @@
               </a>
             </td>
             <td class="setting">
-              <a href="/terms_card.html">
+              <router-link to="/TermsCard">
                 <button>Открыть</button>
-              </a>
+              </router-link>
             </td>
           </tr>
         </tbody>

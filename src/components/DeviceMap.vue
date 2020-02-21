@@ -22,7 +22,7 @@
             />
           </svg>
         </a>
-        <a href="/device.html">
+        <router-link to="/Device">
           <svg
             class="img-svg"
             width="25"
@@ -38,7 +38,7 @@
               fill="#AAB7D4"
             />
           </svg>
-        </a>
+        </router-link>
       </div>
     </div>
     <div class="map" id="map">

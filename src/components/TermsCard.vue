@@ -2,7 +2,7 @@
   <div class="termsCard" id="termsCard">
     <div class="title">
       <div class="left">
-        <a href="/terms.html">
+        <router-link to="/Terms">
           <svg
             class="img-svg-arrow"
             width="18"
@@ -14,7 +14,7 @@
             <path d="M4.75 7.91289L0.768295 4.5L4.75 1.08711V7.91289Z" stroke="#979797" />
             <path d="M5.5 4.5H17.5" stroke="#979797" stroke-linecap="square" />
           </svg> Назад
-        </a>
+        </router-link>
         <h1>Условие 1</h1>
       </div>
       <div class="right">

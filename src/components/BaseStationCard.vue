@@ -2,7 +2,7 @@
   <div class="basestationCard" id="basestationCard">
     <div class="title">
       <div class="left">
-        <a href="/base_station.html">
+        <router-link to="/BaseStation">
           <svg
             class="img-svg-arrow"
             width="18"
@@ -14,7 +14,7 @@
             <path d="M4.75 7.91289L0.768295 4.5L4.75 1.08711V7.91289Z" stroke="#979797" />
             <path d="M5.5 4.5H17.5" stroke="#979797" stroke-linecap="square" />
           </svg> Назад
-        </a>
+        </router-link>
         <h1>ID: 53118865 (Базовая станция)</h1>
       </div>
       <div class="right">
